@@ -129,3 +129,15 @@ body{background:var(--paper)}
   .education-logos{grid-column:2;grid-row:1 / span 2;gap:5px}
   .education-logos .education-logo{width:40px;height:40px}
 }
+
+@media (max-width: 620px) {
+  .project {
+    grid-template-columns: 34px minmax(0, 1fr);
+    gap: 16px;
+    padding-right: 0;
+  }
+
+  .project-main {
+    min-width: 0;
+  }
+}
