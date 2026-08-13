@@ -130,7 +130,7 @@ body{background:var(--paper)}
   .education-logos .education-logo{width:40px;height:40px}
 }
 
-@media (max-width: 620px) {
+@media (max-width: 900px) {
   .project {
     grid-template-columns: 34px minmax(0, 1fr);
     gap: 16px;
@@ -139,5 +139,9 @@ body{background:var(--paper)}
 
   .project-main {
     min-width: 0;
+  }
+
+  .project-status {
+    display: none;
   }
 }
